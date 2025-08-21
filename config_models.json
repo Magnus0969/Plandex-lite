@@ -1,0 +1,37 @@
+{
+    "providers": [
+      {
+        "name": "company-ollama",
+        "baseUrl": "https://dev.assisto.tech/ollama",
+        "skipAuth": true,
+        "type": "ollama"
+      }
+    ],
+    "models": [
+      {
+        "modelId": "qwen3:4b",
+        "description": "Qwen3-4B via company Ollama",
+        "providers": [
+          {
+            "provider": "company-ollama",
+            "modelName": "qwen3:4b"
+          }
+        ]
+      }
+    ],
+    "modelPacks": [
+      {
+        "name": "company-qwen3",
+        "description": "Company Qwen3 (planner=coder=summarizer)",
+        "planner": "qwen3:4b",
+        "architect": "qwen3:4b",
+        "coder": "qwen3:4b",
+        "summarizer": "qwen3:4b",
+        "builder": "qwen3:4b",
+        "wholeFileBuilder": "qwen3:4b",
+        "names": "qwen3:4b",
+        "commitMessages": "qwen3:4b",
+        "autoContinue": "qwen3:4b"
+      }
+    ]
+  }  
