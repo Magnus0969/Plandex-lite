@@ -10,7 +10,7 @@ const roles = {
   reviewer: "You are a Reviewer. Check outputs for errors, correctness, and clarity."
 } as const;
 
-const OLLAMA_URL = "https://dev.assisto.tech/ollama/api/chat";
+const OLLAMA_URL = "<Your_ollama_endpoint>";
 
 export async function askOllama(
   role: keyof typeof roles,
