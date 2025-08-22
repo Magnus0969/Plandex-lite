@@ -23,8 +23,8 @@ export interface OllamaResponse {
   done?: boolean;
 }
 
-const OLLAMA_URL = "https://dev.assisto.tech/ollama/api/chat"; // company endpoint
-const MODEL = "qwen3:4b"; // fixed model
+const OLLAMA_URL = "<your_ollama_endpoint>"; 
+const MODEL = "<your_ollama_model>"; // fixed model
 
 // --- Updated Prompts with Markdown & Emojis ---
 export const ROLE_PROMPTS: Record<RoleName, string> = {
