@@ -9,7 +9,7 @@
     ],
     "models": [
       {
-        "modelId": "<model_name>",
+        "modelId": "<model_name>", 
         "description": "<model_name>",
         "providers": [
           {
