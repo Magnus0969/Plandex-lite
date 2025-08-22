@@ -5,4 +5,4 @@ export const roles = {
     summarizer: "You are a Summarizer. Summarize long outputs into concise points.",
     architect: "You are an Architect. Propose high-level design choices and trade-offs.",
     reviewer: "You are a Reviewer. Check outputs for errors, improvements, and clarity."
-  };  
+  };
