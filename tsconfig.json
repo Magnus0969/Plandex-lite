@@ -2,10 +2,14 @@
     "compilerOptions": {
       "module": "commonjs",
       "target": "ES2020",
+      "outDir": "./dist",
+      "strict": true,
+  
+      /* ✅ fixes for Node built-in imports */
       "esModuleInterop": true,
-      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
       "moduleResolution": "node",
-      "skipLibCheck": true,
-      "strict": true
-    }
+      "skipLibCheck": true
+    },
+    "include": ["src/**/*", "./*.ts"]
   }  

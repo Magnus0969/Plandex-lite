@@ -1,0 +1,6 @@
+This implementation provides a basic framework for a RAG system in TypeScript. You can expand it with:
+1. Real BM25/DPR implementations
+2. Transformer model loading (e.g., Hugging Face)
+3. Embedding models (e.g., Sentence-BERT)
+4. Evaluation metrics
+5. Distributed training support
