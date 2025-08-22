@@ -10,6 +10,7 @@ export type RoleName =
   | "reviewer"
   | "summarizer";
 
+<<<<<<< HEAD
 export interface OllamaMessage {
   role: "system" | "user" | "assistant";
   content: string;
@@ -103,6 +104,9 @@ async function postToOllama(messages: OllamaMessage[]): Promise<OllamaResponse |
     return null;
   }
 }
+=======
+const OLLAMA_URL = "<Your_ollama_endpoint>";
+>>>>>>> a3aac3315423a38ac4228dc0eccedb8e33a11482
 
 export async function askOllama(
   role: RoleName,
@@ -197,6 +201,10 @@ export async function saveCodeBlocks(
 
     written.push(outPath);
   }
+<<<<<<< HEAD
 
   return written;
 }
+=======
+}
+>>>>>>> a3aac3315423a38ac4228dc0eccedb8e33a11482

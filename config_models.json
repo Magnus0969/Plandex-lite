@@ -1,37 +1,37 @@
 {
     "providers": [
       {
-        "name": "company-ollama",
-        "baseUrl": "https://dev.assisto.tech/ollama",
+        "name": "ollama",
+        "baseUrl": "<your ollama end point>",
         "skipAuth": true,
         "type": "ollama"
       }
     ],
     "models": [
       {
-        "modelId": "qwen3:4b",
-        "description": "Qwen3-4B via company Ollama",
+        "modelId": "<model_name>",
+        "description": "<model_name>",
         "providers": [
           {
-            "provider": "company-ollama",
-            "modelName": "qwen3:4b"
+            "provider": "ollama",
+            "modelName": "<model_name>"
           }
         ]
       }
     ],
     "modelPacks": [
       {
-        "name": "company-qwen3",
-        "description": "Company Qwen3 (planner=coder=summarizer)",
-        "planner": "qwen3:4b",
-        "architect": "qwen3:4b",
-        "coder": "qwen3:4b",
-        "summarizer": "qwen3:4b",
-        "builder": "qwen3:4b",
-        "wholeFileBuilder": "qwen3:4b",
-        "names": "qwen3:4b",
-        "commitMessages": "qwen3:4b",
-        "autoContinue": "qwen3:4b"
+        "name": "<model_name>",
+        "description": "<model_name>",
+        "planner": "<model_name>",
+        "architect": "<model_name>",
+        "coder": "<model_name>",
+        "summarizer": "<model_name>",
+        "builder": "<model_name>",
+        "wholeFileBuilder": "<model_name>",
+        "names": "<model_name>",
+        "commitMessages": "<model_name>",
+        "autoContinue": "<model_name>"
       }
     ]
   }  
