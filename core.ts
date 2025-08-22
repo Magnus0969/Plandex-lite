@@ -24,7 +24,7 @@ export interface OllamaResponse {
 }
 
 const OLLAMA_URL = "<your_ollama_endpoint>"; 
-const MODEL = "<your_ollama_model>"; // fixed model
+const MODEL = "<your_ollama_model>";
 
 // --- Updated Prompts with Markdown & Emojis ---
 export const ROLE_PROMPTS: Record<RoleName, string> = {
